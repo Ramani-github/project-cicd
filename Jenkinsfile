@@ -19,12 +19,5 @@ pipeline {
             }
         }
 		
-		
-		stage('Deploy') {
-            steps {
-                echo 'Deploy to tomcat ap/n server '
-				deploy adapters: [tomcat9(credentialsId: 'tomcat1', path: '', url: 'http://174.129.155.76:8081/')], contextPath: null, war: '**/*.war'
-            }
-        }
     }
 }
