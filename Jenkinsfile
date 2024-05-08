@@ -15,7 +15,7 @@ pipeline {
 		stage('Build Artifact') {
             steps {
                 echo 'Build Artifact with maven build tool'
-				sh 'mvn clean install'
+				sh 'mvn clean test'
             }
         }
 		
