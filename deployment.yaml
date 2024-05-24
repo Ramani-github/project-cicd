@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: mc-app
-        image: ramanijadala/mywebapp-3.1:7
+        image: ramanijadala/mindcircuit:replaceImagetag
         ports:
         - containerPort: 8080
