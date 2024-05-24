@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: mc-app
-        image: ramanijadala/mywebapp-3.1:5
+        image: ramanijadala/mywebapp-3.1:replaceImageTag
         ports:
         - containerPort: 8080
