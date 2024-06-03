@@ -19,4 +19,4 @@
     - name: Push image
       command: docker push ramanijadala/cicd:latest
     - name: Run container
-      command: docker run -d --name mcapp2 -p 8082:8080 ramanijadala/cicd:latest
+      command: docker run -d --name mcapp3 -p 8083:8080 ramanijadala/cicd:latest
